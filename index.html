@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebooks à portée de clic : abonnez-vous dès maintenant !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href=" e-book.png">
+</head>
+<body>
+    <div id="modalNewsLetter">
+        <div class="imgWrapper">
+            <img src=" close2.png" alt="close button icon" id="closeNewsLetter">
+        </div>
+        <h3>Souscrivez à un abonnement sur notre plateforme !</h3>
+        <p>Recevez toutes nos infos dès maintenant</p>
+        <div class="formNewsLetter">
+            <input type="email" placeholder="Email">
+            <button type="submit">Souscrire</button>
+        </div>
+    </div>
+    <a href="#head" id="flechehaut">
+        <img src="haut.png" alt="fleche haut">
+    </a>
+    <header id="head">
+        <div class="logo">
+            <h2>Digibooks</h2>
+        </div>
+        <div class="log">
+            <a href="#">Se connecter</a>
+            <a href="#subscribeSection">S'abonner</a>
+            <img id="burgerBtn" src=" menu.png" alt="menu burger icon">
+        </div>
+    </header>
+
+    <main>
+        <section class="popUpThanks">
+            <div>
+                <div class="contentPopUp">
+                    <div class="titlePopUp">
+                        <img src=" sparkle.png" alt="sparkle icon">
+                        <h2>Merci pour votre inscription !</h2>
+                    </div>
+                    <span>Vous allez recevoir un email de confirmation dans quelques instants.</span>
+                </div>
+                <button>Retourner sur le site</button>
+            </div>
+        </section>
+        <section id="landing" class="hero reveal">
+            <div class="heroLeft">
+                <div>
+                    <img src=" sparkle.png" alt="sparkle icon">
+                    <p>30 jours d'essai gratuit</p>
+                </div>
+                <div>
+                    <h1>Des e-books !</h1>
+                    <p>Des centaines d'ebooks à portée de main pour satisfaire toutes vos envies de lecture et découvrir de nouveaux horizons littéraires.</p>
+                </div>
+                <a href="#subscribeSection">Commencer</a>
+            </div>
+            <div class="heroRight">
+                <img src=" heroTemporaire.jpg" alt="hero image">
+            </div>
+        </section>
+        <section class="HIW">
+            <div class="HIW-title">
+                <h2>Comment ça marche ?</h2>
+                <p>Abonnez-vous dès maintenant à notre base d'ebooks et accédez simplement à des milliers de titres passionnants depuis nimporte où tout en faisant un bon geste ! Notre entreprise est solidaire, une partie de l'argent récolté grâce à vos abonnements est reversé à différentes ONG luttant contre la faim dans le monde.</p>
+            </div>
+            <div class="HIW-cardsWrapper reveal">
+
+                <div class="HIW-card">
+                    <img src=" step1.png" alt="step 1 icon">
+                    <h3>Créez votre compte</h3>
+                    <p>Créez votre compte gratuitement en quelques clics et abonnez-vous à notre base d'ebooks tout en faisant une bonne action. </p>
+                </div>
+
+                <div class="HIW-card">
+                    <img src=" step2.png" alt="step 2 icon">
+                    <h3>Un large choix</h3>
+                    <p>Choisissez facilement parmi des milliers de livres, celui qui vous fera vibrer, voyager, pleurer, rire...</p>
+                </div>
+
+                <div class="HIW-card">
+                    <img src=" step3.png" alt="step 3 icon">
+                    <h3>Recommandations</h3>
+                    <p>Grâce à notre algorithme, nous vous conseillons des livres en rapport à vos habitudes d'emprunt, mais pas que... </p>
+                </div>
+            </div>
+        </section>
+        <section class="reveal" id="subscribeSection">
+            <div>
+                <h2>Souscrivez dès maintenant</h2>
+                <span>Plus de 2500 e-books disponibles en illimité et même <b>hors connexion</b> !</span>
+                <form action="">
+                    <div>        
+                        <div class="formNoms">
+                            <input type="text" placeholder="Nom">
+                            <input type="text" placeholder="Prénom">
+                        </div>
+                        <div class="formCoords">
+                            <input type="email" placeholder="Email">
+                            <input type="tel" placeholder="Téléphone">
+                        </div>
+                        <div class="formAdresse">
+                            <input type="zip" placeholder="Code postal">
+                            <input type="text" placeholder="Adresse">
+                        </div>
+                    </div>
+                    <button type="submit">Passer au payement</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="haut">
+            <div id="gauche">
+                <div id="logofooter">
+                    <h2>Digibooks</h2>
+                </div>
+                <div id="reseaux">
+                    <div>
+                        <img src=" facebook.png" alt="facebook">
+                    </div>
+                    <div>
+                        <img src=" twitter.png" alt="twitter">
+                    </div>
+                    <div>
+                        <img src=" instagram.png" alt="instagram">
+                    </div>
+                </div>
+            </div>
+            <div id="milieu">
+                <h3>CONTACT US</h3>
+                <p>digibooks@gmail.com</p>
+                <p>15 Rue du Faubourg Saint-Denis, 75010 Paris</p>
+                <p>06.80.36.95.78</p>
+            </div>
+            <div id="droite">
+                <h3>NEWSLETTER</h3>
+                <p>Entrez votre email afin d'être notifié de toutes nouveautés sur le site</p>
+                <div>
+                    <input type="text" placeholder="Email">
+                    <img src=" email.png" alt="email">
+                </div>
+            </div>
+        </div>
+        <div id="bas">
+            <p>© Tous droits réservés Digibooks 2023</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
